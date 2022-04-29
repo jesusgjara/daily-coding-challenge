@@ -24,4 +24,3 @@ function countSheeps(arrayOfSheep) {
     let sheep = arrayOfSheep.filter(elem => elem === true)
     return sheep.reduce((acc, c) => acc + c, 0) 
 }
-
