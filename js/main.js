@@ -119,3 +119,12 @@ function squareSum(numbers){
   numbers.forEach(elem => arr.push(elem*elem));
   return arr.reduce((a, b) => a + b, 0);
 }
+
+
+// Complete the solution so that it reverses the string passed into it.
+// 'word'   =>  'drow'
+// 'world'  =>  'dlrow'
+
+function solution(str){
+  return str.split("").reverse().join("")
+}
