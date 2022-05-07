@@ -182,3 +182,8 @@ function getSum( a,b ) {
 // 2000 --> 20
 
 const century = year => Math.ceil(year/100);
+
+// Make a function that will return a greeting statement that uses an input; your program should return, "Hello, <name> how are you doing today?".
+// [Make sure you type the exact thing I wrote or the program may not execute properly]
+
+const greet = name => `Hello, ${name} how are you doing today?`;
