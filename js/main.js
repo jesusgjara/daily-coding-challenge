@@ -187,3 +187,15 @@ const century = year => Math.ceil(year/100);
 // [Make sure you type the exact thing I wrote or the program may not execute properly]
 
 const greet = name => `Hello, ${name} how are you doing today?`;
+
+// Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
+
+function chunkArrayInGroups(arr, size) {
+  let newArr = []
+  for (let i=0; i<arr.length; i += size) {
+    newArr.push(arr.slice(i, i + size))
+  }
+  return newArr;
+}
+
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
