@@ -199,3 +199,9 @@ function chunkArrayInGroups(arr, size) {
 }
 
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
+
+// Simple, remove the spaces from the string, then return the resultant string.
+
+function noSpace(x){
+  return x.replace(/\s/g, '');  
+}
