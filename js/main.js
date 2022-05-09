@@ -205,3 +205,8 @@ chunkArrayInGroups(["a", "b", "c", "d"], 2);
 function noSpace(x){
   return x.replace(/\s/g, '');  
 }
+
+// Implement a function which convert the given boolean value into its string representation.
+// Note: Only valid inputs will be given.
+
+const booleanToString = b => b === true ? 'true': 'false';
