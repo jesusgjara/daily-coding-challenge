@@ -5,13 +5,15 @@
 
 //Return true if it's possible to get to the next pump or false if it's not possible
 
-const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-    // if distance / mpg >= fuel == true
-    if(distanceToPump / mpg <= fuelLeft) {
-        return true
-    }
-    return false
-  };
+// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+//     // if distance / mpg >= fuel == true
+//     if(distanceToPump / mpg <= fuelLeft) {
+//         return true
+//     }
+//     return false
+//   };
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => distanceToPump/mpg >= fuelLeft;
 
 
 //Example
