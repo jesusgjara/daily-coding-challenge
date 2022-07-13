@@ -7,4 +7,6 @@
 // setAlarm(false, false) -> false
 // setAlarm(true, false) -> true
 
-const setAlarm = (e, v) => e && v || !e && v || !e && !v ? false : true; 
+// const setAlarm = (e, v) => e && v || !e && v || !e && !v ? false : true; 
+
+const setAlarm = (employed, vacation) => employed && !vacation;
