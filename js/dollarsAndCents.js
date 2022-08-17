@@ -12,3 +12,7 @@
 // Good luck! Your team knows they can count on you!
 
 const formatMoney = amount => `$${amount.toFixed(2)}`
+
+// function formatMoney(amount){
+//   return `$${amount.toFixed(2)}`
+// }
