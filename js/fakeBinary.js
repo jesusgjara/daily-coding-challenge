@@ -2,3 +2,12 @@
 
 // Note: input will never be an empty string
 
+function fakeBin(x){
+    let result = ''
+    for (let i = 0; i < x.length; i++) {
+      if (x.charAt(i) * 1 < 5) {
+       result += '0'
+      } else result += '1'
+    }
+    return result
+  }
