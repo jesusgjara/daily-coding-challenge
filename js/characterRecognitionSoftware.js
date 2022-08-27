@@ -9,10 +9,16 @@
 // I is misinterpreted as 1
 // The test cases contain numbers only by mistake.
 
-function correct(string)
-{
-  let a = /0/gi
-  let b = /1/gi
-  let c = /5/gi
-return string.replace(a, 'O').replace(b, 'I').replace(c, 'S')
-}
+// Answer 1
+
+// function correct(string)
+// {
+//   let a = /0/gi
+//   let b = /1/gi
+//   let c = /5/gi
+// return string.replace(a, 'O').replace(b, 'I').replace(c, 'S')
+// }
+
+// Answer 2
+
+correct = s => s.replace(/0/g,'O').replace(/1/g,'I').replace(/5/g,'S')
