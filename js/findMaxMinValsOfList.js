@@ -8,12 +8,15 @@
 // Notes
 // You may consider that there will not be any empty arrays/vectors.
 
-var min = function(list){
-    let sortedList = list.sort((a,b) => a-b)
-    return sortedList[0];
-}
+// var min = function(list){
+//     let sortedList = list.sort((a,b) => a-b)
+//     return sortedList[0];
+// }
 
-var max = function(list){
-    let sortedList = list.sort((a,b) => a-b)
-    return sortedList[sortedList.length - 1];
-}
+// var max = function(list){
+//     let sortedList = list.sort((a,b) => a-b)
+//     return sortedList[sortedList.length - 1];
+// }
+
+const min = list => Math.min(...list) 
+const max = list => Math.max(...list) 
